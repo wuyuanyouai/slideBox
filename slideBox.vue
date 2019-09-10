@@ -44,7 +44,7 @@ export default {
         this.slideWidth = this.$refs.slideBox.offsetWidth - this.$refs.slideSd.offsetWidth
         this.slideState = true
         this.isSlide = false
-        this.$emit('slideState',this.slideState) // 成功后的抛出的值
+        this.$emit('slideState',true) // 成功后的抛出的值
       }else{
         this.slideWidth = 0
         this.slideState = false
